@@ -1,25 +1,32 @@
 # Sorting_Visualizer
 
-A web application showcasing the inner workings of sorting algorithms.
+## 🧑‍💻 Implemented Algorithms
+1. **Bubble Sort** 
+2. **Selection Sort** 
+3. **Insertion Sort** 
+4. **Merge Sort** 
+5. **Quick Sort** 
+6. **Heap Sort** 
 
-Implemented algorithms:
-1) Bubble sort
-2) Selection sort
-3) Insertion sort
-4) Merge sort
-5) Quick sort
-6) Heap sort
+## 🎨 Features
 
-Features:
-1) Colored representation of step being executed.
-  1.1) Blue:default
-  1.2) Yellow: Being compared
-  1.3) Red: Identified as in incorrect position and to be moved
-  1.4) Green: In correct position
-2) 3 Controls for visualizations
-  2.1) Speed of visualization (5 speed levels)
-  2.2) Data size ()
-  2.3) Generation of new data (Randomly generate new data).
-4) Time and Space complexity of algorithm being visualized.
+### 1. **Colored Representation of Sorting Steps**
+The visualizations use color coding to represent the state of the array as the sorting algorithms work:
+- **🔵 Blue:** Default (initial state of the array)
+- **🟡 Yellow:** Elements being compared
+- **🔴 Red:** Elements identified as in incorrect positions and need to be moved
+- **🟢 Green:** Element in its correct position
 
-Take a look at live version: https://kethantummala.github.io/Sorting_Visualizer/
+### 2. **Controls for Customizing Visualization**
+- **⚡ Speed of Visualization:** Choose from 5 speed levels to adjust how fast the algorithm runs.
+- **📊 Data Size:** Adjust the number of elements in the array to be sorted.
+- **🎲 Generate New Data:** Randomly generate new data to visualize different sorting scenarios.
+
+### 3. **Performance Metrics**
+- **🕒 Time Complexity:** Displays the time complexity of the algorithm being visualized.
+- **💾 Space Complexity:** Displays the space complexity of the algorithm being visualized.
+
+## 🚀 Technologies Used
+- **HTML** 🖥️: For the basic structure of the web application.
+- **CSS** 🎨: For styling and creating a visually appealing layout.
+- **JavaScript** 💻: For implementing the sorting algorithms and handling the interactive aspects of the visualization.
